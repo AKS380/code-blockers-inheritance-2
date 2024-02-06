@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom';
 
 
 const stats = [
-    { name: 'Stat1', value: '100' },
-    { name: 'Stat2', value: '200' },
+    { name: 'StrengthBlooms' },
+    { name: 'CourageBlossoms' },
     // Add more stats as needed
   ];
   const images = [
@@ -64,10 +64,13 @@ const newWidth = newHeight * aspectRatio;
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h2>
+          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Blossom
+
+
+
+</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat aliqua.
+          Welcome to blossom , your sanctuary for strength and support in the face of breast cancer. Explore empowering resources and connect with a community dedicated to resilience and renewal
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

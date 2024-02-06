@@ -10,5 +10,81 @@
         align-items: center;
         width: 1480px;
         height: 100vh; /* Set the height to 100% of the viewport height */
-        background-color:rgba(253, 242, 242, 0.811); /* Example background color */
+        background-color:rgba(125, 155, 199, 0.811); /* Example background color */
   }
+/* breastCancerForm.css */
+
+/* Container styling */
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: #ac6565;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(210, 4, 4, 0.1);
+}
+
+/* Heading styling */
+h1 {
+  text-align: center;
+  color: #b2dee4;
+  margin-bottom: 200px;
+}
+
+/* Input field styling */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="file"],
+input[type="text"],
+input[type="number"] {
+  width: calc(50% - 222px); /* Adjusted width to accommodate borders and padding */
+  padding: 15px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: content-box;
+}
+
+/* Button styling */
+button {
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Button group styling */
+button + button {
+  margin-top: 5px;
+}
+
+/* Alert box styling */
+.alert {
+  background-color: #a0b8ef;
+  color: #c9c1f1;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 508px) {
+  .container {
+    width: 70%;
+  }
+}
