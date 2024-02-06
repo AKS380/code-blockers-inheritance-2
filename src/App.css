@@ -88,3 +88,192 @@ button + button {
     width: 70%;
   }
 }
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: #4CAF50; /* Green */
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #f2f2f2;
+}
+
+nav img {
+  margin-right: 5px;
+}
+
+footer {
+  background-color: #4CAF50; /* Green */
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f2f2f2;
+}
+
+footer img {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/* styles.css */
+
+.button-container {
+  text-align: center;
+}
+
+.button-container button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #45a049;
+}
+/* Footer Styles */
+footer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Logo Column Styles */
+footer div:nth-child(1) {
+  text-align: center;
+}
+
+/* Contact Us Column Styles */
+footer div:nth-child(2) {
+  text-align: left;
+  color: black;
+}
+
+/* Quick Links Column Styles */
+footer div:nth-child(3) {
+  text-align: left;
+  color: black;
+}
+
+/* Gmail Options Column Styles */
+footer div:nth-child(4) {
+  text-align: left;
+  color: black;
+}
+
+/* Link Styles */
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Input and Button Styles */
+footer input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+footer button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #333;
+}
+/* CSS File for Peach Background */
+
+/* Set background color for the entire page */
+body {
+  background-color: #FFDAB9; /* Peach color */
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #FFE4B5; /* Lighter shade of peach */
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+/* Table Heading Styles */
+h2 {
+  text-align: center;
+}
+
+/* Button Styles */
+button {
+  padding: 5px 10px;
+  background-color: #006400; /* Dark green */
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #008000; /* Darker shade of green on hover */
+}
